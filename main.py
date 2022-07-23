@@ -1,7 +1,7 @@
 import pip
 import requests
 from bs4 import BeautifulSoup
-
+from fake_headers import Headers
 
 KEYWORDS = ['дизайн', 'фото', 'web', 'python']
 HEADERS = {
